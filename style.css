@@ -1,0 +1,180 @@
+body{
+    padding: 0;
+    margin: 0;
+    background: #141E30;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.head{
+    width: 40%;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    text-align: justify;
+    flex-wrap: wrap;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    text-align: justify;
+    flex-wrap: wrap;
+}
+a{
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 100;
+    color: rgb(254, 254, 254);
+}
+#bg{
+    width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+    color: azure;
+    background-image: url(watch2.jpg);
+    background-position: center;
+}
+.hero {
+  height: 100vh;
+  background: url('watch3.jpg') no-repeat center center/cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.hero-text {
+  padding: 20px 40px;
+  border-radius: 10px;
+  color: aliceblue;
+  background-color: rgba(254, 255, 255, 0.268);
+  border-radius: 20px;
+}
+.hero-text h1 {
+  font-size: 48px;
+}
+.hero-text p {
+  margin-top: 10px;
+  font-size: 18px;
+}
+.bg2 {
+  display: flex;
+  padding: 100px 50px;
+  align-items: center;
+  justify-content: space-between;
+}
+.bg2 img {
+  width: 50%;
+  border-radius: 20px;
+}
+.bg3 {
+  width: 45%;
+  padding-left: 50px;
+}
+.bg3 h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+  color: azure;
+}
+.bg3 p {
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: azure;
+}
+.footer {
+  background-image: url(watch17.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 40px 20px;
+  font-family: Arial, sans-serif;
+  color: #ffffff;
+}
+
+.foots {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+  border-bottom: 1px solid #ffffff;
+  padding-bottom: 20px;
+}
+
+.foots > div {
+  flex: 1 1 20px;
+}
+
+.foots h3 {
+  margin-bottom: 10px;
+}
+
+.foots ul {
+  list-style: none;
+  padding: 0;
+}
+
+.foots ul li {
+  margin-bottom: 8px;
+}
+
+.foots a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 18px;
+}
+.foots h3{
+    font-size: 25px;
+}
+
+.foot3 ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding-top: 10px;
+}
+
+.foot4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  padding: 30px 0;
+  flex-wrap: wrap;
+}
+
+.foot4 img {
+  width: 150px;
+  height: 100px;
+  object-fit: contain;
+  background-color: white; 
+  padding: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Optional visual enhancement */
+}
+
+
+.foot5 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  flex-wrap: wrap;
+}
+
+.foot5 .left,
+.foot5 .center,
+.foot5 .right {
+  flex: 1 1 200px;
+  text-align: center;
+}
+
+.foot5 .left a {
+  display: block;
+  margin-top: 5px;
+  color: #ffffff;
+}
+
